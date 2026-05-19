@@ -1,0 +1,1329 @@
+{
+  "@@locale": "en",
+  "appName": "Draksy",
+  "@appName": {
+    "description": "The name of the application"
+  },
+  "backToSignIn": "Back to Sign In",
+  "@backToSignIn": {
+    "description": "Link to return to sign in page"
+  },
+  "confirmationSentTo": "Confirmation sent to {email}",
+  "@confirmationSentTo": {
+    "description": "Message indicating confirmation email was sent",
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "clickConfirmationLink": "Click the confirmation link in the email to complete your registration",
+  "@clickConfirmationLink": {
+    "description": "Instruction to click confirmation link"
+  },
+  "checkYourEmail": "Check your email",
+  "@checkYourEmail": {
+    "description": "Title for email confirmation screen"
+  },
+  "feedTitle": "Feed",
+  "@feedTitle": {
+    "description": "Title for the feed screen"
+  },
+  "feedSubtitle": "See the community's performance",
+  "@feedSubtitle": {
+    "description": "Subtitle for the feed screen"
+  },
+  "you": "You",
+  "@you": {
+    "description": "Label for the current user in stories/feed"
+  },
+  "weeklyChallenge": "Weekly Challenge",
+  "@weeklyChallenge": {
+    "description": "Label for weekly challenge section"
+  },
+  "weeklyChallengeDesc": "Complete 30 lessons this week and earn a reward!",
+  "@weeklyChallengeDesc": {
+    "description": "Description for weekly challenge"
+  },
+  "weeklyRanking": "Weekly Ranking",
+  "@weeklyRanking": {
+    "description": "Label for weekly ranking section"
+  },
+  "activityCompletedLesson": "{name} completed a lesson",
+  "@activityCompletedLesson": {
+    "description": "Activity feed: user completed a lesson",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "activityReachedLevel": "{name} reached a new level",
+  "@activityReachedLevel": {
+    "description": "Activity feed: user reached a new level",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "activityMaintainedStreak": "{name} maintained the streak",
+  "@activityMaintainedStreak": {
+    "description": "Activity feed: user maintained streak",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "activityWonAchievement": "{name} won an achievement",
+  "@activityWonAchievement": {
+    "description": "Activity feed: user won an achievement",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "nowLevel": "Now at level {level}!",
+  "@nowLevel": {
+    "description": "Activity feed: current level status",
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "daysStreak": "{count} day streak!",
+  "@daysStreak": {
+    "description": "Activity feed: days streak count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeAgo": "{time} ago",
+  "@timeAgo": {
+    "description": "Activity feed: time since activity occurred",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "2h"
+      }
+    }
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "Generic OK button"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Generic cancel button"
+  },
+  "continueButton": "Continue",
+  "@continueButton": {
+    "description": "Generic continue button"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Generic close button"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Generic retry button"
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading state text"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Generic error label"
+  },
+  "success": "Success",
+  "@success": {
+    "description": "Generic success label"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings page title"
+  },
+  "welcome": "Welcome to Draksy",
+  "@welcome": {
+    "description": "Welcome message on splash screen"
+  },
+  "welcomeUser": "Welcome, {name}!",
+  "@welcomeUser": {
+    "description": "Welcome message with user name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "signIn": "Sign In",
+  "@signIn": {
+    "description": "Sign in button"
+  },
+  "signUp": "Sign Up",
+  "@signUp": {
+    "description": "Sign up button"
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout button"
+  },
+  "signInWithGoogle": "Sign in with Google",
+  "@signInWithGoogle": {
+    "description": "Google sign in button"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Email input label"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Password input label"
+  },
+  "worldMap": "World Map",
+  "@worldMap": {
+    "description": "World map page title"
+  },
+  "lessons": "Lessons",
+  "@lessons": {
+    "description": "Lessons page title"
+  },
+  "battle": "Battle",
+  "@battle": {
+    "description": "Battle page title"
+  },
+  "levels": "Levels",
+  "@levels": {
+    "description": "Levels generic label"
+  },
+  "level": "Level {number}",
+  "@level": {
+    "description": "Current level indicator",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "xp": "XP",
+  "@xp": {
+    "description": "Experience points abbreviation"
+  },
+  "xpProgress": "{current} / {max} XP",
+  "@xpProgress": {
+    "description": "XP progress display",
+    "placeholders": {
+      "current": {
+        "type": "int",
+        "example": "650"
+      },
+      "max": {
+        "type": "int",
+        "example": "1000"
+      }
+    }
+  },
+  "lives": "Lives",
+  "@lives": {
+    "description": "Lives generic label"
+  },
+  "livesRemaining": "{count, plural, =0{No lives} =1{1 life} other{{count} lives}}",
+  "@livesRemaining": {
+    "description": "Lives remaining indicator",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "streak": "Streak",
+  "@streak": {
+    "description": "Streak generic label"
+  },
+  "streakDays": "{count} day streak",
+  "@streakDays": {
+    "description": "Current streak display",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "coins": "Coins",
+  "@coins": {
+    "description": "Coins generic label"
+  },
+  "world": "World {number}",
+  "@world": {
+    "description": "World indicator",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "lesson": "Lesson {number}",
+  "@lesson": {
+    "description": "Lesson indicator",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "locked": "Locked",
+  "@locked": {
+    "description": "Locked state indicator"
+  },
+  "unlocked": "Unlocked",
+  "@unlocked": {
+    "description": "Unlocked state indicator"
+  },
+  "completed": "Completed",
+  "@completed": {
+    "description": "Completed state indicator"
+  },
+  "boss": "Boss",
+  "@boss": {
+    "description": "Boss generic label"
+  },
+  "defeat": "Defeat",
+  "@defeat": {
+    "description": "Defeat action button"
+  },
+  "exercise": "Exercise",
+  "@exercise": {
+    "description": "Exercise generic label"
+  },
+  "question": "Question",
+  "@question": {
+    "description": "Question generic label"
+  },
+  "answer": "Answer",
+  "@answer": {
+    "description": "Answer generic label"
+  },
+  "submit": "Submit",
+  "@submit": {
+    "description": "Submit button"
+  },
+  "correct": "Correct!",
+  "@correct": {
+    "description": "Correct answer feedback"
+  },
+  "incorrect": "Incorrect",
+  "@incorrect": {
+    "description": "Incorrect answer feedback"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile page title"
+  },
+  "stats": "Statistics",
+  "@stats": {
+    "description": "Statistics page title"
+  },
+  "totalXp": "Total XP",
+  "@totalXp": {
+    "description": "Total experience points label"
+  },
+  "achievements": "Achievements",
+  "@achievements": {
+    "description": "Achievements page title"
+  },
+  "premium": "Premium",
+  "@premium": {
+    "description": "Premium tier label"
+  },
+  "free": "Free",
+  "@free": {
+    "description": "Free tier label"
+  },
+  "buyPremium": "Upgrade to Premium",
+  "@buyPremium": {
+    "description": "Premium upgrade button"
+  },
+  "livesPackPrice": "R$ 4,90",
+  "@livesPackPrice": {
+    "description": "Lives pack price"
+  },
+  "noInternetConnection": "No internet connection",
+  "@noInternetConnection": {
+    "description": "Network error message"
+  },
+  "noLivesTitle": "Game Over",
+  "@noLivesTitle": {
+    "description": "Title for out of lives dialog"
+  },
+  "noLivesMessage": "You've lost all your lives. Try again later!",
+  "@noLivesMessage": {
+    "description": "Message for out of lives dialog"
+  },
+  "lessonCompletedTitle": "Congratulations!",
+  "@lessonCompletedTitle": {
+    "description": "Title for successful lesson completion"
+  },
+  "lessonFailedTitle": "Not this time!",
+  "@lessonFailedTitle": {
+    "description": "Title for failed lesson completion"
+  },
+  "lessonCompletedMessage": "You did great and unlocked the next lesson!",
+  "@lessonCompletedMessage": {
+    "description": "Message for successful lesson completion"
+  },
+  "lessonFailedMessage": "Review the lesson and try again to reach 80% accuracy.",
+  "@lessonFailedMessage": {
+    "description": "Message for failed lesson completion"
+  },
+  "somethingWentWrong": "Something went wrong",
+  "@somethingWentWrong": {
+    "description": "Generic error message"
+  },
+  "tryAgain": "Try again",
+  "@tryAgain": {
+    "description": "Try again button"
+  },
+  "introTitle1": "Draksy",
+  "@introTitle1": {
+    "description": "Intro screen 1 title"
+  },
+  "introSubtitle1": "Master languages with your\nAI buddy",
+  "@introSubtitle1": {
+    "description": "Intro screen 1 subtitle"
+  },
+  "introTitle2": "Learn languages in a fun\nand gamified way",
+  "@introTitle2": {
+    "description": "Intro screen 2 title"
+  },
+  "introSubtitle2": "Interactive exercises, daily quests,\nand your personal AI buddy make\nfluency feel like playing.",
+  "@introSubtitle2": {
+    "description": "Intro screen 2 subtitle"
+  },
+  "introTitle3": "Track progress, streaks,\nand rewards",
+  "@introTitle3": {
+    "description": "Intro screen 3 title"
+  },
+  "introSubtitle3": "Build daily habits, unlock exclusive\nbadges, and watch your language\nskills level up every single day.",
+  "@introSubtitle3": {
+    "description": "Intro screen 3 subtitle"
+  },
+  "introTitle4": "Practice daily and\nimprove fast",
+  "@introTitle4": {
+    "description": "Intro screen 4 title"
+  },
+  "introSubtitle4": "Commit to just 10 minutes a day.\nConsistent practice is the key to\nmastering any language.",
+  "@introSubtitle4": {
+    "description": "Intro screen 4 subtitle"
+  },
+  "introGetStarted": "Get Started",
+  "@introGetStarted": {
+    "description": "Intro get started button"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "Next button"
+  },
+  "alreadyHaveAccount": "Already have an account? ",
+  "@alreadyHaveAccount": {
+    "description": "Already have account prompt"
+  },
+  "dontHaveAccount": "Don't have an account? ",
+  "@dontHaveAccount": {
+    "description": "Don't have account prompt"
+  },
+  "logIn": "Log in",
+  "@logIn": {
+    "description": "Log in link"
+  },
+  "welcomeBack": "Welcome Back!",
+  "@welcomeBack": {
+    "description": "Welcome back heading"
+  },
+  "createAccount": "Create Account",
+  "@createAccount": {
+    "description": "Create account heading"
+  },
+  "signInToContinue": "Please sign in to continue",
+  "@signInToContinue": {
+    "description": "Sign in to continue subtitle"
+  },
+  "joinUsToStart": "Join us to start your journey today",
+  "@joinUsToStart": {
+    "description": "Join us to start subtitle"
+  },
+  "yourName": "Your name",
+  "@yourName": {
+    "description": "Name input placeholder"
+  },
+  "yourEmail": "Your email",
+  "@yourEmail": {
+    "description": "Email input placeholder"
+  },
+  "yourPassword": "Your password",
+  "@yourPassword": {
+    "description": "Password input placeholder"
+  },
+  "createPassword": "Create a password",
+  "@createPassword": {
+    "description": "Create password placeholder"
+  },
+  "confirmPassword": "Confirm Password",
+  "@confirmPassword": {
+    "description": "Confirm password label"
+  },
+  "passwordsDoNotMatch": "Passwords do not match",
+  "@passwordsDoNotMatch": {
+    "description": "Error message when passwords don't match"
+  },
+  "forgotPassword": "Forgot password?",
+  "@forgotPassword": {
+    "description": "Forgot password link"
+  },
+  "orContinueWith": "OR CONTINUE WITH",
+  "@orContinueWith": {
+    "description": "Or continue with divider"
+  },
+  "orSignUpWith": "OR SIGN UP WITH",
+  "@orSignUpWith": {
+    "description": "Or sign up with divider"
+  },
+  "termsOfService": "Terms of Service",
+  "@termsOfService": {
+    "description": "Terms of service link"
+  },
+  "privacyPolicy": "Privacy Policy",
+  "@privacyPolicy": {
+    "description": "Privacy policy link"
+  },
+  "byCreatingAccount": "By creating an account, you agree to our {tos} and {privacy}.",
+  "@byCreatingAccount": {
+    "description": "Terms agreement text",
+    "placeholders": {
+      "tos": {
+        "type": "String",
+        "example": "Terms of Service"
+      },
+      "privacy": {
+        "type": "String",
+        "example": "Privacy Policy"
+      }
+    }
+  },
+  "fullName": "Full Name",
+  "@fullName": {
+    "description": "Full name label"
+  },
+  "signInWithApple": "Sign in with Apple",
+  "@signInWithApple": {
+    "description": "Sign in with Apple button"
+  },
+  "skip": "Skip",
+  "@skip": {
+    "description": "Skip button"
+  },
+  "goodMorning": "GOOD MORNING",
+  "@goodMorning": {
+    "description": "Good morning greeting label"
+  }, 
+  "goodAfternoon": "GOOD AFTERNOON",
+  "@goodAfternoon": {
+    "description": "Good afternoon greeting label"
+  },
+   "goodEvening": "GOOD EVENING",
+  "@goodEvening": {
+    "description": "Good evening greeting label"
+  },
+  "dailyChallenge": "Daily Challenge",
+  "@dailyChallenge": {
+    "description": "Daily challenge section title"
+  },
+  "continueLearning": "Continue Learning",
+  "@continueLearning": {
+    "description": "Continue learning section title"
+  },
+  "newGrammar": "New Grammar",
+  "@newGrammar": {
+    "description": "New grammar label"
+  },
+  "startChallenge": "Start Challenge",
+  "@startChallenge": {
+    "description": "Start challenge button"
+  },
+  "resume": "Resume",
+  "@resume": {
+    "description": "Resume button"
+  },
+  "seeAll": "See all",
+  "@seeAll": {
+    "description": "See all button"
+  },
+  "home": "Home",
+  "@home": {
+    "description": "Home tab label"
+  },
+  "shop": "Shop",
+  "@shop": {
+    "description": "Shop tab label"
+  },
+  "unitLesson": "Unit {unit} • Lesson {lesson}",
+  "@unitLesson": {
+    "description": "Unit and lesson indicator",
+    "placeholders": {
+      "unit": {
+        "type": "int",
+        "example": "1"
+      },
+      "lesson": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "livesFull": "Full",
+  "@livesFull": {
+    "description": "Lives full label"
+  },
+  "masterPastTense": "Master the\nPast Tense",
+  "@masterPastTense": {
+    "description": "Master past tense card title"
+  },
+  "progress": "Progress",
+  "@progress": {
+    "description": "Progress label"
+  },
+  "lessonsCount": "{count} Lessons",
+  "@lessonsCount": {
+    "description": "Lessons count label",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "premiumMembership": "Premium Membership",
+  "@premiumMembership": {
+    "description": "Premium membership label"
+  },
+  "annualPlan": "Annual Plan",
+  "@annualPlan": {
+    "description": "Annual plan label"
+  },
+  "monthlyPlan": "Monthly Plan",
+  "@monthlyPlan": {
+    "description": "Monthly plan label"
+  },
+  "bestValue": "BEST VALUE",
+  "@bestValue": {
+    "description": "Best value badge"
+  },
+  "perYear": "/year",
+  "@perYear": {
+    "description": "Per year suffix"
+  },
+  "perMonth": "/month",
+  "@perMonth": {
+    "description": "Per month suffix"
+  },
+  "unlimitedHearts": "Unlimited Hearts",
+  "@unlimitedHearts": {
+    "description": "Unlimited hearts feature"
+  },
+  "noAds": "No Ads",
+  "@noAds": {
+    "description": "No ads feature"
+  },
+  "offlineAccess": "Offline Access",
+  "@offlineAccess": {
+    "description": "Offline access feature"
+  },
+  "monthlyStreakRepair": "Monthly Streak Repair",
+  "@monthlyStreakRepair": {
+    "description": "Monthly streak repair feature"
+  },
+  "startFreeTrial": "Start 14-Day Free Trial",
+  "@startFreeTrial": {
+    "description": "Start free trial button"
+  },
+  "subscribeMonthly": "Subscribe Monthly",
+  "@subscribeMonthly": {
+    "description": "Subscribe monthly button"
+  },
+  "powerUps": "Power-ups",
+  "@powerUps": {
+    "description": "Power-ups section title"
+  },
+  "refillHearts": "Refill Hearts",
+  "@refillHearts": {
+    "description": "Refill hearts item title"
+  },
+  "getBackInTheGame": "Get back in the game",
+  "@getBackInTheGame": {
+    "description": "Refill hearts item subtitle"
+  },
+  "streakFreeze": "Streak Freeze",
+  "@streakFreeze": {
+    "description": "Streak freeze item title"
+  },
+  "protectYourStreak": "Protect your streak for 1 day",
+  "@protectYourStreak": {
+    "description": "Streak freeze item subtitle"
+  },
+  "purchase": "Purchase",
+  "@purchase": {
+    "description": "Purchase button"
+  },
+  "buy": "Buy",
+  "@buy": {
+    "description": "Buy button"
+  },
+  "refillHeartsAmount": "{amount} Hearts",
+  "@refillHeartsAmount": {
+    "description": "Refill hearts amount label",
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "editProfile": "Edit Profile",
+  "@editProfile": {
+    "description": "Edit profile button"
+  },
+  "learningStats": "Learning Stats",
+  "@learningStats": {
+    "description": "Learning stats section title"
+  },
+  "accuracy": "Accuracy",
+  "@accuracy": {
+    "description": "Accuracy stat label"
+  },
+  "badges": "Badges",
+  "@badges": {
+    "description": "Badges section title"
+  },
+  "manageBadges": "Manage Badges",
+  "@manageBadges": {
+    "description": "Manage badges button"
+  },
+  "draksyPremium": "Draksy Premium",
+  "@draksyPremium": {
+    "description": "Draksy premium label"
+  },
+  "manageSubscription": "Manage subscription",
+  "@manageSubscription": {
+    "description": "Manage subscription button"
+  },
+  "inviteFriends": "Invite Friends",
+  "@inviteFriends": {
+    "description": "Invite friends menu item"
+  },
+  "inviteFriendsReward": "Get 1 week free Premium!",
+  "@inviteFriendsReward": {
+    "description": "Invite friends reward subtitle"
+  },
+  "helpSupport": "Help & Support",
+  "@helpSupport": {
+    "description": "Help and support menu item"
+  },
+  "faqContact": "FAQ and contact",
+  "@faqContact": {
+    "description": "FAQ and contact subtitle"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications menu item"
+  },
+  "mockUserName": "Alex Dragonheart",
+  "@mockUserName": {
+    "description": "Mock user display name"
+  },
+  "mockUserTag": "@alex_learns",
+  "@mockUserTag": {
+    "description": "Mock user tag"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English language label"
+  },
+  "spanish": "Spanish",
+  "@spanish": {
+    "description": "Spanish language label"
+  },
+  "intermediate": "Intermediate",
+  "@intermediate": {
+    "description": "Intermediate level label"
+  },
+  "beginner": "Beginner",
+  "@beginner": {
+    "description": "Beginner level label"
+  },
+  "champion": "Champion",
+  "@champion": {
+    "description": "Champion badge title"
+  },
+  "top10": "Top 10%",
+  "@top10": {
+    "description": "Top 10 badge subtitle"
+  },
+  "onFire": "On Fire",
+  "@onFire": {
+    "description": "On fire badge title"
+  },
+  "thirtyDayStreak": "30 Day Streak",
+  "@thirtyDayStreak": {
+    "description": "30 day streak badge subtitle"
+  },
+  "master": "Master",
+  "@master": {
+    "description": "Master badge title"
+  },
+  "account": "Account",
+  "@account": {
+    "description": "Account settings section"
+  },
+  "changePassword": "Change your password",
+  "@changePassword": {
+    "description": "Change password subtitle"
+  },
+  "learningGoals": "Learning & Goals",
+  "@learningGoals": {
+    "description": "Learning and goals settings section"
+  },
+  "dailyGoal": "Daily Goal",
+  "@dailyGoal": {
+    "description": "Daily goal setting"
+  },
+  "xpPerDay": "{xp} XP per day",
+  "@xpPerDay": {
+    "description": "XP per day label",
+    "placeholders": {
+      "xp": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "practiceReminders": "Practice Reminders",
+  "@practiceReminders": {
+    "description": "Practice reminders setting"
+  },
+  "dailyAt": "Daily at {time}",
+  "@dailyAt": {
+    "description": "Daily reminder time label",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "08:00"
+      }
+    }
+  },
+  "difficulty": "Difficulty",
+  "@difficulty": {
+    "description": "Difficulty setting"
+  },
+  "audio": "Audio",
+  "@audio": {
+    "description": "Audio settings section"
+  },
+  "soundEffects": "Sound Effects",
+  "@soundEffects": {
+    "description": "Sound effects setting"
+  },
+  "voiceSpeed": "Voice Speed",
+  "@voiceSpeed": {
+    "description": "Voice speed setting"
+  },
+  "normal": "Normal",
+  "@normal": {
+    "description": "Normal speed label"
+  },
+  "deleteAccount": "Delete Account",
+  "@deleteAccount": {
+    "description": "Delete account button"
+  },
+  "deleteAccountTitle": "Delete Account?",
+  "@deleteAccountTitle": {
+    "description": "Title for delete account confirmation dialog"
+  },
+  "deleteAccountMessage": "Are you sure you want to delete your account? This action cannot be undone and you will lose all your progress.",
+  "@deleteAccountMessage": {
+    "description": "Message for delete account confirmation dialog"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button label"
+  },
+  "general": "General",
+  "@general": {
+    "description": "General settings section"
+  },
+  "preferences": "Preferences",
+  "@preferences": {
+    "description": "Preferences settings section"
+  },
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "Dark mode setting"
+  },
+  "sound": "Sound",
+  "@sound": {
+    "description": "Sound setting"
+  },
+  "haptics": "Haptics",
+  "@haptics": {
+    "description": "Haptics setting"
+  },
+  "termsPrivacy": "Terms & Privacy",
+  "@termsPrivacy": {
+    "description": "Terms and privacy menu item"
+  },
+  "advanced": "Advanced",
+  "@advanced": {
+    "description": "Advanced settings section"
+  },
+  "allCategories": "All Categories",
+  "@allCategories": {
+    "description": "All categories filter"
+  },
+  "grammar": "Grammar",
+  "@grammar": {
+    "description": "Grammar category"
+  },
+  "vocabulary": "Vocabulary",
+  "@vocabulary": {
+    "description": "Vocabulary category"
+  },
+  "beginnerDesc": "Basics, greetings, and simple sentences.",
+  "@beginnerDesc": {
+    "description": "Beginner level description"
+  },
+  "intermediateDesc": "Complex grammar and daily conversations.",
+  "@intermediateDesc": {
+    "description": "Intermediate level description"
+  },
+  "advancedDesc": "Fluent speaking and professional vocabulary.",
+  "@advancedDesc": {
+    "description": "Advanced level description"
+  },
+  "timePerLesson": "~{minutes} mins/lesson",
+  "@timePerLesson": {
+    "description": "Time per lesson label",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "categoryProgress": "Category Progress",
+  "@categoryProgress": {
+    "description": "Category progress label"
+  },
+  "unitsCount": "{current}/{total} Lessons",
+  "@unitsCount": {
+    "description": "Units count label",
+    "placeholders": {
+      "current": {
+        "type": "int",
+        "example": "3"
+      },
+      "total": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "unitNumber": "Lesson {number}",
+  "@unitNumber": {
+    "description": "Unit number label",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "nextUnit": "NEXT: LESSON {number}",
+  "@nextUnit": {
+    "description": "Next unit label",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "sectionCleared": "Section {number} Cleared!",
+  "@sectionCleared": {
+    "description": "Section cleared message",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "bonusXpEarned": "You earned {xp} bonus XP",
+  "@bonusXpEarned": {
+    "description": "Bonus XP earned message",
+    "placeholders": {
+      "xp": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "greetingsAndIntros": "GREETINGS\n& INTROS",
+  "@greetingsAndIntros": {
+    "description": "Greetings and introductions unit label"
+  },
+  "holaMeansHello": "\"Hola\" means {hello} in {language}.",
+  "@holaMeansHello": {
+    "description": "Hola means hello exercise text",
+    "placeholders": {
+      "hello": {
+        "type": "String",
+        "example": "Hello"
+      },
+      "language": {
+        "type": "String",
+        "example": "Spanish"
+      }
+    }
+  },
+  "grammarTip": "Grammar Tip",
+  "@grammarTip": {
+    "description": "Grammar tip label"
+  },
+  "grammarTipDesc": "Use it any time of the day!\nIt's casual and friendly.",
+  "@grammarTipDesc": {
+    "description": "Grammar tip description text"
+  },
+  "howDoYouSayHello": "How do you say \"Hello\"?",
+  "@howDoYouSayHello": {
+    "description": "How do you say hello exercise question"
+  },
+  "categories": "Categories",
+  "@categories": {
+    "description": "Categories label"
+  },
+  "featured": "Featured",
+  "@featured": {
+    "description": "Featured section label"
+  },
+  "specials": "Specials",
+  "@specials": {
+    "description": "Specials section label"
+  },
+  "profileUpdatedSuccess": "Profile updated successfully",
+  "@profileUpdatedSuccess": {
+    "description": "Snackbar message after saving profile"
+  },
+  "displayName": "Display Name",
+  "@displayName": {
+    "description": "Display name label in edit profile"
+  },
+  "enterDisplayName": "Enter your display name",
+  "@enterDisplayName": {
+    "description": "Placeholder for display name input"
+  },
+  "username": "Username",
+  "@username": {
+    "description": "Username label in edit profile"
+  },
+  "enterUsername": "Enter your username",
+  "@enterUsername": {
+    "description": "Placeholder for username input"
+  },
+  "enterEmail": "Enter your email",
+  "@enterEmail": {
+    "description": "Placeholder for email input"
+  },
+  "aboutYou": "About You",
+  "@aboutYou": {
+    "description": "About you section label in edit profile"
+  },
+  "enterBio": "Tell us about yourself",
+  "@enterBio": {
+    "description": "Placeholder for bio/about you input"
+  },
+  "saveChanges": "Save Changes",
+  "@saveChanges": {
+    "description": "Save changes button"
+  },
+  "adjustPhoto": "Adjust Photo",
+  "@adjustPhoto": {
+    "description": "Title for image cropping screen"
+  },
+  "finish": "Finish",
+  "@finish": {
+    "description": "Finish button label"
+  },
+  "reset": "Reset",
+  "@reset": {
+    "description": "Reset button label"
+  },
+  "camera": "Camera",
+  "@camera": {
+    "description": "Camera source for image picking"
+  },
+  "cameraDescription": "Take a new photo",
+  "@cameraDescription": {
+    "description": "Description for camera source"
+  },
+  "gallery": "Gallery",
+  "@gallery": {
+    "description": "Gallery source for image picking"
+  },
+  "galleryDescription": "Choose a photo from your gallery",
+  "@galleryDescription": {
+    "description": "Description for gallery source"
+  },
+  "profilePhoto": "Profile Photo",
+  "@profilePhoto": {
+    "description": "Profile photo section label"
+  },
+  "profileUpdateError": "Error updating Profile",
+  "@profileUpdateError": {
+    "description": "Profile error message"
+  },
+  "errorNoInternet": "No internet connection. Please check your network.",
+  "@errorNoInternet": {
+    "description": "No internet error message"
+  },
+  "errorNetworkTimeout": "The request timed out. Please try again.",
+  "@errorNetworkTimeout": {
+    "description": "Network timeout error message"
+  },
+  "errorConnectionRefused": "Connection refused by the server.",
+  "@errorConnectionRefused": {
+    "description": "Connection refused error message"
+  },
+  "errorSsl": "Secure connection failed. SSL certificate error.",
+  "@errorSsl": {
+    "description": "SSL error message"
+  },
+  "errorNetwork": "A network error occurred. Please try again.",
+  "@errorNetwork": {
+    "description": "Generic network error message"
+  },
+  "errorInvalidCredentials": "Invalid email or password.",
+  "@errorInvalidCredentials": {
+    "description": "Invalid credentials error message"
+  },
+  "errorTokenExpired": "Your session has expired. Please sign in again.",
+  "@errorTokenExpired": {
+    "description": "Token expired error message"
+  },
+  "errorTokenInvalid": "Invalid authentication token.",
+  "@errorTokenInvalid": {
+    "description": "Token invalid error message"
+  },
+  "errorSessionExpired": "Session expired. Please sign in again.",
+  "@errorSessionExpired": {
+    "description": "Session expired error message"
+  },
+  "errorEmailNotConfirmed": "Please confirm your email address before signing in.",
+  "@errorEmailNotConfirmed": {
+    "description": "Email not confirmed error message"
+  },
+  "errorPhoneNotConfirmed": "Please confirm your phone number before signing in.",
+  "@errorPhoneNotConfirmed": {
+    "description": "Phone not confirmed error message"
+  },
+  "errorUserNotFound": "User not found.",
+  "@errorUserNotFound": {
+    "description": "User not found error message"
+  },
+  "errorUserAlreadyExists": "An account with this email already exists.",
+  "@errorUserAlreadyExists": {
+    "description": "User already exists error message"
+  },
+  "errorWeakPassword": "Password is too weak. Use at least 8 characters, including letters and numbers.",
+  "@errorWeakPassword": {
+    "description": "Weak password error message"
+  },
+  "errorUnauthorized": "You are not authorized to perform this action.",
+  "@errorUnauthorized": {
+    "description": "Unauthorized error message"
+  },
+  "errorAccountDisabled": "This account has been disabled. Please contact support.",
+  "@errorAccountDisabled": {
+    "description": "Account disabled error message"
+  },
+  "errorRateLimit": "Too many attempts. Please wait a moment and try again.",
+  "@errorRateLimit": {
+    "description": "Rate limit error message"
+  },
+  "errorMfaRequired": "Multi-factor authentication is required.",
+  "@errorMfaRequired": {
+    "description": "MFA required error message"
+  },
+  "errorInvalidMfaCode": "Invalid or expired verification code.",
+  "@errorInvalidMfaCode": {
+    "description": "Invalid MFA code error message"
+  },
+  "errorPasswordResetExpired": "Password reset link has expired. Please request a new one.",
+  "@errorPasswordResetExpired": {
+    "description": "Password reset expired error message"
+  },
+  "errorAuth": "An authentication error occurred.",
+  "@errorAuth": {
+    "description": "Generic auth error message"
+  },
+  "errorOAuthNotEnabled": "This social login provider is not enabled in the server settings.",
+  "@errorOAuthNotEnabled": {
+    "description": "OAuth provider not enabled error message"
+  },
+  "errorDuplicateKey": "A record with this value already exists.",
+  "@errorDuplicateKey": {
+    "description": "Duplicate key error message"
+  },
+  "errorForeignKeyViolation": "Operation failed due to a related record dependency.",
+  "@errorForeignKeyViolation": {
+    "description": "Foreign key violation error message"
+  },
+  "errorTransaction": "Database transaction failed and was rolled back.",
+  "@errorTransaction": {
+    "description": "Transaction error message"
+  },
+  "errorEmptyResult": "No records found for the given query.",
+  "@errorEmptyResult": {
+    "description": "Empty result error message"
+  },
+  "errorTableNotFound": "The requested database table was not found.",
+  "@errorTableNotFound": {
+    "description": "Table not found error message"
+  },
+  "errorDatabase": "A database error occurred.",
+  "@errorDatabase": {
+    "description": "Generic database error message"
+  },
+  "errorInternalServer": "Internal server error. Please try again later.",
+  "@errorInternalServer": {
+    "description": "Internal server error message"
+  },
+  "errorServiceUnavailable": "Service is temporarily unavailable. Please try again later.",
+  "@errorServiceUnavailable": {
+    "description": "Service unavailable error message"
+  },
+  "errorBadGateway": "Bad gateway. The server received an invalid response.",
+  "@errorBadGateway": {
+    "description": "Bad gateway error message"
+  },
+  "errorGatewayTimeout": "Gateway timeout. The server took too long to respond.",
+  "@errorGatewayTimeout": {
+    "description": "Gateway timeout error message"
+  },
+  "errorApiEndpointNotFound": "The requested API endpoint was not found.",
+  "@errorApiEndpointNotFound": {
+    "description": "API endpoint not found error message"
+  },
+  "errorForbidden": "You do not have permission to access this resource.",
+  "@errorForbidden": {
+    "description": "Forbidden error message"
+  },
+  "errorServer": "A server error occurred. Please try again later.",
+  "@errorServer": {
+    "description": "Generic server error message"
+  },
+  "errorCache": "A local storage error occurred.",
+  "@errorCache": {
+    "description": "Generic cache error message"
+  },
+  "errorUpload": "File upload failed. Please try again.",
+  "@errorUpload": {
+    "description": "Upload error message"
+  },
+  "errorDownload": "File download failed. Please try again.",
+  "@errorDownload": {
+    "description": "Download error message"
+  },
+  "errorFileTooLarge": "File exceeds the maximum allowed size.",
+  "@errorFileTooLarge": {
+    "description": "File too large error message"
+  },
+  "errorInvalidFileType": "File type is not allowed.",
+  "@errorInvalidFileType": {
+    "description": "Invalid file type error message"
+  },
+  "errorFileAlreadyExists": "A file with this name already exists.",
+  "@errorFileAlreadyExists": {
+    "description": "File already exists error message"
+  },
+  "errorStorage": "A storage error occurred.",
+  "@errorStorage": {
+    "description": "Generic storage error message"
+  },
+  "errorRequiredField": "This field is required.",
+  "@errorRequiredField": {
+    "description": "Required field error message"
+  },
+  "errorMismatch": "The values do not match.",
+  "@errorMismatch": {
+    "description": "Mismatch error message"
+  },
+  "errorValidation": "Validation failed.",
+  "@errorValidation": {
+    "description": "Generic validation error message"
+  },
+  "errorPermissionDenied": "Permission denied. Please grant access in your device settings.",
+  "@errorPermissionDenied": {
+    "description": "Permission denied error message"
+  },
+  "errorPermissionPermanentlyDenied": "Permission permanently denied. Please enable it in your device settings.",
+  "@errorPermissionPermanentlyDenied": {
+    "description": "Permission permanently denied error message"
+  },
+  "errorTechnical": "A technical error occurred. Please contact support.",
+  "@errorTechnical": {
+    "description": "Technical error message"
+  },
+  "errorUnknown": "An unexpected error occurred.",
+  "@errorUnknown": {
+    "description": "Unknown error message"
+  },
+  "inviteFriendsLabel": "Invite\nfriends",
+  "@inviteFriendsLabel": {
+    "description": "Invite friends label with line break"
+  },
+  "inviteFriendsMessage": "Hi! I'm using Draksy to learn languages. Join me and let's practice together!",
+  "@inviteFriendsMessage": {
+    "description": "Default message for inviting friends"
+  },
+  "inviteFriendsURL": "https://draksy.app",
+  "@inviteFriendsURL": {
+    "description": "Default URL for inviting friends"
+  },
+  "xpValue": "{xp} XP",
+  "@xpValue": {
+    "description": "XP value label",
+    "placeholders": {
+      "xp": {
+        "type": "String",
+        "example": "50"
+      }
+    }
+  },
+  "progressHistory": "Progress History",
+  "@progressHistory": {
+    "description": "Progress history page title"
+  },
+  "viewAllCompletedLessons": "View all completed lessons",
+  "@viewAllCompletedLessons": {
+    "description": "Subtitle for progress history menu item"
+  }
+}
